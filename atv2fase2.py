@@ -97,4 +97,9 @@ def main():
     print(f"📉 Percentual de perdas: {perdas_percentual}%")
 
 if __name__ == "__main__":
-    main()
+    while True:
+        main()
+        continuar = input("\nDeseja cadastrar outro produtor? (s/n): ").strip().lower()
+        if continuar != 's':
+            print("✅ Encerrando o sistema. Até a próxima!")
+            break
