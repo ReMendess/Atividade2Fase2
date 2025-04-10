@@ -33,8 +33,8 @@ def carregar_dados_de_json():
 def salvar_no_oracle(produtor, perdas, total_colhido):
     try:
         conn = oracledb.connect(
-            user='    ',
-            password="    ",
+            user='rm565606',
+            password="fiap25",
             dsn='oracle.fiap.com.br:1521/ORCL'
         )
         cursor = conn.cursor()
@@ -101,5 +101,5 @@ if __name__ == "__main__":
         main()
         continuar = input("\nDeseja cadastrar outro produtor? (s/n): ").strip().lower()
         if continuar != 's':
-            print("✅ Encerrando o sistema. Até a próxima!")
+            print("✅ Obrigado por utilizar o nosso sistema. Até a próxima!")
             break
