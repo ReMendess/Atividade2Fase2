@@ -33,8 +33,8 @@ def carregar_dados_de_json():
 def salvar_no_oracle(produtor, perdas, total_colhido):
     try:
         conn = oracledb.connect(
-            user='rm565606',
-            password="fiap25",
+            user='    ',
+            password="    ",
             dsn='oracle.fiap.com.br:1521/ORCL'
         )
         cursor = conn.cursor()
