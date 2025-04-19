@@ -1,23 +1,23 @@
-# 🌾 Sistema de Registro de Produção Agrícola
+#  Sistema de Registro de Produção Agrícola
 
 Este é um sistema em Python desenvolvido para auxiliar produtores rurais no registro e análise da colheita, incluindo cálculos de perdas, total colhido e armazenamento seguro dos dados em **formato JSON** e **banco de dados Oracle**.
 
 ---
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
-- ✅ Cadastro de produtores rurais
-- 📈 Cálculo automático de:
+- Cadastro de produtores rurais
+- Cálculo automático de:
   - Total colhido (toneladas)
   - Perdas na colheita (em toneladas)
-- 💾 Armazenamento dos dados em:
+-  Armazenamento dos dados em:
   - Arquivo `.json` (formato legível)
   - Banco de dados Oracle
-- 🧾 Geração de relatório em tempo real no terminal
+-  Geração de relatório em tempo real no terminal
 
 ---
 
-## 📦 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - Python 3.10+
 - [oracledb](https://pypi.org/project/oracledb/) 
@@ -25,7 +25,7 @@ Este é um sistema em Python desenvolvido para auxiliar produtores rurais no reg
 
 ---
 
-## 🛠️ Pré-requisitos
+## Pré-requisitos
 
 - Python 3 instalado
 - Oracle Client (Instant Client) instalado e configurado
