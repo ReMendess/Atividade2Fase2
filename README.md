@@ -40,3 +40,15 @@ CREATE TABLE PRODUCAO_CANAVIAL (
     total_colhido NUMBER(10, 2),
     data_registro DATE DEFAULT SYSDATE
 );
+
+```
+
+## Integrantes do Grupo
+
+- Arthur Luiz Rosado Alves  -> RM562061
+- Renan de Oliveira Mendes  -> RM563145
+- Thiago Santos  -> RM563327
+- Otavio Custodio  -> RM565606
+- Leandro  -> RM565240
+
+
