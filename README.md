@@ -1,4 +1,4 @@
-#  Sistema para Registrar a Qauntidade de Produção Agrícola.
+#  Sistema para Registrar a Quantidade de Produção Agrícola.
 
 Sistema em Python desenvolvido para produtores rurais, no registro e análise da colheita, incluindo cálculos de perdas, total colhido e armazenamento seguro dos dados em **formato JSON** e **banco de dados Oracle**.
 
