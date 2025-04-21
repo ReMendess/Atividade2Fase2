@@ -1,10 +1,10 @@
-#  Sistema de Registro de Produção Agrícola
+#  Sistema para Registrar a Qauntidade de Produção Agrícola.
 
-Este é um sistema em Python desenvolvido para auxiliar produtores rurais no registro e análise da colheita, incluindo cálculos de perdas, total colhido e armazenamento seguro dos dados em **formato JSON** e **banco de dados Oracle**.
+Sistema em Python desenvolvido para produtores rurais, no registro e análise da colheita, incluindo cálculos de perdas, total colhido e armazenamento seguro dos dados em **formato JSON** e **banco de dados Oracle**.
 
 ---
 
-##  Funcionalidades
+##  Funcionalidade
 
 - Cadastro de produtores rurais
 - Cálculo automático de:
